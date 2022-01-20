@@ -239,22 +239,4 @@ public class EmployeeServiceImplTest {
             assertThat(apiException.getMessage()).isEqualTo("Given employee Id [" + empId + "] is invalid or record does not exist.");
         }
     }
-
-   /* @Test
-    public void deleteEmployeesTest_runtimeExceptionThrown() {
-        Long empId = 911L;
-        EmployeeServiceImpl service = new EmployeeServiceImpl();
-        EmployeeServiceImpl serviceSpy = PowerMockito.spy(service);
-        Employee saveEmployee = employeeList.get(0);
-        when(employeeRepository.findById(empId)).thenReturn(Optional.ofNullable(saveEmployee));
-        try {
-            PowerMockito.doReturn(null).when(serviceSpy, MemberMatcher.method(EmployeeServiceImpl.class, "findFirst")).withArguments(saveEmployee.getId(), true);
-            Boolean result = employeeService.deleteEmployee(empId);
-        } catch (Throwable apiRuntimeException) {
-            assertThat(apiRuntimeException).isInstanceOf(ApiRuntimeException.class);
-            ApiRuntimeException apiException = (ApiRuntimeException) apiRuntimeException;
-            assertThat(apiException.getErrorMessage()).isEqualTo("Delete operation failed!");
-            assertThat(apiException.getErrorStatus()).isEqualTo(HttpStatus.INTERNAL_SERVER_ERROR);
-        }
-    }*/
 }

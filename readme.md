@@ -50,3 +50,32 @@ Please let us know more about your Java experience in a few sentences. For examp
 - I have 3 years experience in Java and I started to use Spring Boot from last year
 - I'm a beginner and just recently learned Spring Boot
 - I know Spring Boot very well and have been using it for many years
+
+
+# Things added
+- Added the business logic for Employee service class
+- Added logic in Rest controller
+- Added documentation for swagger ui
+- Added caching mechanism using hazelcast
+- Added unit test cases
+- Custom exceptions for different scenarios
+- Added logging using slf4j
+
+
+
+# Things can be done in future 
+- Integration Testcase
+- Performance testing of APIs using JMeter
+- Containerize
+- SonarQube integration for inspection of code or some other tools to do that.
+- Use External Cache to like Redis, memcache to serve high amount of users.
+- Use external database to persist the data
+
+
+
+# Experience in java
+- I have around 6 years of experience but only java exp around 4-5 year 
+- Spring boot never used so far in last 6 year.
+- Every company I worked for had it's own inhouse developed framework so never got the opportunity to learn spring
+- I can learn spring in depth if it is required or used in AXA.
+- 
